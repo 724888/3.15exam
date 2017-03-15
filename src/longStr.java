@@ -10,6 +10,7 @@ import org.junit.Test;
  */
 public class longStr {
     int findlongstr(char []str){
+        if(str==null){return 0;}
         int max=1;
         int j;
 
@@ -25,16 +26,9 @@ public class longStr {
     }
     @Test
     public void test(){
-        char []str={'a','b','c'};
+        char []str=null;
         System.out.println(findlongstr(str));
-        char []str1={'a','b','c','c'};
-        System.out.println(findlongstr(str1));
-        char []str2={'a','b','c','c','d'};
-        System.out.println(findlongstr(str2));
-        char []str3={'a','b','c','c','d','e'};
-        System.out.println(findlongstr(str3));
-        char []str4={'a','b','c','c','d','e','f'};
-        System.out.println(findlongstr(str4));
+
     }
 }
 
