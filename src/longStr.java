@@ -31,6 +31,8 @@ public class longStr {
         System.out.println(findlongstr(str1));
         char []str2={'a','b','c','c','d'};
         System.out.println(findlongstr(str2));
+        char []str3={'a','b','c','c','d','e'};
+        System.out.println(findlongstr(str3));
 
     }
 }
